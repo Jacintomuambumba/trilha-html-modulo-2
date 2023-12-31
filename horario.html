@@ -21,6 +21,26 @@
             bottom: 0;
             width: 100%;
         }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+
+        th, td {
+            padding: 12px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #3498db;
+            color: #fff;
+        }
+        
     </style>
 </head>
 <body>
@@ -31,22 +51,49 @@
                 <li><a href="template.html">Pagina Principal</a></li><br>
                 <li><a href="Sobre.html">Sobre a Clinica</a></li><br>
                 <li><a href="horario.html">Horarios de atendimento</a></li><br>
-                <li><a href="contato.html">Contacto</a></li>
+                <li><a href="Contato.html">Contacto</a></li>
             </ul>
         </div>
 
         <div class="main">
             <div class="header">
-                <img src="/img/BANNER-clinicapng.png" width="700" >
+                <img src="/img/marca-vitale-_2019-DEF1.jpg" width="700" >
                 <!-- Aqui vai o seu header -->
             </div>
     
             <div class="content" style="background-color: ;">
                
                 <!-- Aqui vai o seu conteúdo -->
-                <h5 style="color: #82a1ad;" >Seja muito;</h5>
-                <H1>Bem-vindo à <span style="color: chartreuse;">Vitalle!</span>   </H1><br>
-                <p style="font-family: inherit; font-size: 100%; word-wrap: break-word; ;">Fundada pelas médicas Carolina Coelho de Pádua e Joyce Scodeler Leone, a VITALLE SAÚDE E BEM-ESTAR é uma clínica especializada em dermatologia, cardiologia, nutrologia e medicina do estilo de vida, áreas essenciais para se viver com mais qualidade, leveza e felicidade. Nossa equipe prioriza o atendimento humanizado e personalizado e está pronta para cuidar da sua saúde de forma única!</p>
+                <h2>Horário de Atendimento</h2>
+        <p>Segunda a Sexta: 8h00 - 18h00</p>
+        <p>Sábado: 9h00 - 13h00</p>
+
+        <h2>Serviços e Preços</h2>
+        <p>Nossos serviços abrangem uma variedade de especialidades médicas. Confira abaixo a tabela de preços:</p>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Serviço</th>
+                    <th>Segunda a Sexta</th>
+                    <th>Sábado</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Consulta Médica</td>
+                    <td>R$ 150,00</td>
+                    <td>R$ 180,00</td>
+                </tr>
+                <tr>
+                    <td>Exame de Sangue</td>
+                    <td>R$ 80,00</td>
+                    <td>R$ 100,00</td>
+                </tr>
+                <!-- Adicione mais linhas conforme necessário -->
+            </tbody>
+        </table>
+
             </div>
     
             <div class="footer">

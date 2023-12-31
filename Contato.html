@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clinica Vitalle</title>
+    <link rel="stylesheet" href="base.css">
+    <style>
+         /* Estilo opcional para a imagem do cabeçario  */
+         .header img {
+            width: 100%; 
+            height: auto;
+        }
+        .footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 5px;
+            position:;
+            bottom: 0;
+            width: 100%;
+        }
+        iframe {
+            width: 100%;
+            height: 400px;
+            border: 0;
+            margin-top: 20px;
+        }
+
+        form {
+            margin-top: 20px;
+        }
+
+        form label {
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        form input,
+        form textarea {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 16px;
+            box-sizing: border-box;
+        }
+
+        form button {
+            background-color: #3498db;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <!-- Aqui vai o seu menu -->
+            <ul>
+                <li><a href="template.html">Pagina Principal</a></li><br>
+                <li><a href="Sobre.html">Sobre a Clinica</a></li><br>
+                <li><a href="horario.html">Horarios de atendimento</a></li><br>
+                <li><a href="Contato.html">Contacto</a></li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="header">
+                <img src="/img/BANNER-CLINICA-2.png" width="700" >
+                <!-- Aqui vai o seu header -->
+            </div>
+    
+            <div class="content" style="background-color: ;">
+               
+                <!-- Aqui vai o seu conteúdo -->
+                <main>
+                    <h2>Informações de Contato</h2>
+                    <p>Telefones de Contato:</p>
+                    <ul>
+                        <li>Celular: (11) 98765-4321</li>
+                        <li>WhatsApp: (11) 98765-4321</li>
+                    </ul>
+            
+                    <p>Endereço:</p>
+                    <p>Rua da Saúde, 123 - Cidade, Estado</p>
+            
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12345.678901234567!2d-46.12345678901234!3d-23.123456789012345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDPCsDQ2JzIwLjEiTiA0NsKwNTYnMDIuNiJX!5e0!3m2!1sen!2sus!4v1234567890123!5m2!1sen!2sus"
+                        frameborder="0" style="border:0" allowfullscreen
+                    ></iframe>
+            
+                    <h2>Formulário de Contato</h2>
+                    <form action="#" method="post">
+                        <label for="nome">Nome:</label>
+                        <input type="text" id="nome" name="nome" required>
+            
+                        <label for="email">E-mail:</label>
+                        <input type="email" id="email" name="email" required>
+            
+                        <label for="assunto">Assunto:</label>
+                        <input type="text" id="assunto" name="assunto" required>
+            
+                        <label for="mensagem">Mensagem:</label>
+                        <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+            
+                        <button type="submit">Enviar</button>
+                        <button type="reset">Limpar Formulário</button>
+                    </form>
+            </div>
+    
+            <div class="footer">
+                <!-- Aqui vai o seu rodapé -->
+                <p>&copy; 2023 Clínica Vitalle. Todos os direitos reservados.</p>
+                <p>Endereço: Rua Barão de Teffé, 160,8º. Andar – Sala 803, Edifício Helbor, Pq. do Colégio – Jundiaí/ SP</p>
+                <p>Telefone: 11 95346-1236 | Email: clinicavitalesb@gmail.com </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
